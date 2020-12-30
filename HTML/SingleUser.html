@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="#"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="icon" href="./UTILITIES/images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="../CSS/GameCSS(Large).css">
+    <link rel="stylesheet" media="screen and (max-width: 944px)" href="../CSS/GameCSS(Small).css">
+    <title>Blackjack Game | Single User</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row1">
+            <h2>Blackjack Game</h2>
+            <h1><span id="blackjack-result">Let's Play</span></h1>
+        </div>
+        <div class="row2 flex-blackjack-row-1">
+            <div class="row21" id="your-box">
+                <h2>First User: <span id="your-blackjack-result">0</span></h2>
+            </div>
+            <div class="row22" id="dealer-box">
+                <h2>Second User: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <button id="blackjack-hit-button">HIT</button>
+            <button id="blackjack-stand-button">STAND</button>
+            <button id="blackjack-deal-button">DEAL</button>
+        </div>
+        <div class="row4 flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Lose</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../JAVASCRIPT/singleUserScript.js"></script>
+</body>
+
+</html>

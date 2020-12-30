@@ -1,0 +1,7 @@
+.container{
+    background-image: linear-gradient(90deg, #020024 0%, #00d4ff 35%, #9292bd 100%);
+    text-align: center;
+}
+.container button{
+    padding: 30px 50px;
+}

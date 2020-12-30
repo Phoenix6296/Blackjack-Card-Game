@@ -1,0 +1,116 @@
+/* Root Part */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Total page Container */
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, brown , rgb(0, 132, 255));
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Row 1 */
+.row1{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-family: 'Bangers', cursive;
+    height: 9%;
+}
+
+/* Row 2 */
+.row2{
+    display: flex;
+    height: 69%;
+}
+.row2 h2{
+    border: 1px solid white;
+    margin: 3px 10px;
+}
+.row21,.row22{
+    text-align: center;
+    padding-top: 4px;
+    width: 50%;
+    font-size: 1.2rem;
+    font-family: 'Bangers', cursive;
+    color: white;
+    border: 2px solid black;
+}
+.row21{
+    background-image: linear-gradient(to right, black , rgb(9, 61, 16));
+}
+.row22{
+    background-image: linear-gradient(to right, rgb(9, 61, 16), black);
+}
+/* Row 3 */
+.flex-blackjack-row-2{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 61, 16);
+}
+.flex-blackjack-row-2 button{
+    padding: 0 30px;
+    margin: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px black;
+}
+#blackjack-hit-button{
+    background-color: rgb(67, 167, 224);
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#blackjack-hit-button:hover{
+    background-color: rgb(31, 134, 194);
+    transition: 0.3s;
+}
+#blackjack-stand-button:hover{
+    background-color: rgb(182, 179, 36);
+    transition: 0.3s;
+}
+#blackjack-deal-button:hover{
+    background-color: rgb(50, 155, 19);
+    transition: 0.3s;
+}
+#blackjack-stand-button{
+    background-color: rgb(219, 216, 39);
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#blackjack-deal-button{
+    background-color: rgb(60, 187, 21);
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Row 4 */
+.flex-blackjack-row-3{
+    height:14%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 61, 16);
+    border-top: 2px solid black;
+}
+table,th,td{
+    border: 1px solid white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px;
+}
